@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp 
 {
     internal class Program
     {
@@ -9,7 +9,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             FileReader read = new FileReader(@"C:\Users\Bartek\source\repos\MemoryGame\Words.txt");
             List<string> words = read.getWords();
             GameEngine game = new GameEngine(words);
-
         }
     }
 }

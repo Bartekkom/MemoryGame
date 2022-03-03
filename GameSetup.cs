@@ -26,7 +26,7 @@ public class GameSetup
 
 	private void chooseLevel()
 	{
-		Console.WriteLine("*Choose difficulty level*\n" +
+		Console.WriteLine("\n*Choose difficulty level*\n" +
 							"Type 'easy' for Easy\n" +
 							"Type 'hard' for Hard\n" +
 							"Then press enter key\n");
