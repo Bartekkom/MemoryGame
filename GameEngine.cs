@@ -78,7 +78,6 @@ public class GameEngine : GameSetup
 		}
     }
 
-
 	private int userEntry(string entry)
 	{
 		int index = 0;
@@ -152,11 +151,12 @@ public class GameEngine : GameSetup
 			xArray[index2] = memoryArray[index2] + " ";
 			display(xArray, nArray);
 
-			triesLeft--;
+			
 			Console.WriteLine("\n \n *______________________*");
 
 			if (!xArray[index1].Equals(xArray[index2]))
 			{
+				triesLeft--;
 				xArray[index1] = "X ";
 				xArray[index2] = "X ";
 				Console.WriteLine("\n \n Keep Guessing! Tries left: " + triesLeft + "\n");
@@ -206,7 +206,7 @@ public class GameEngine : GameSetup
 		}
         else
         {
-			//Console.WriteLine("You are out of chances! Press any key if you want to restart the game.");
+			Console.WriteLine("You are out of chances! Press any key if you want to restart the game.");
 			Console.ReadKey();
 			restart();
 		}
