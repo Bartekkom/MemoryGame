@@ -1,10 +1,10 @@
 # MemoryGame
 MemoryGame C#
-*reseting game
-*difficulty choose
-*random words each game
-*time and tries display
-*highscore writing to file
+-reseting game
+-difficulty choose
+-random words each game
+-time and tries display
+-highscore writing to file
 
 Hi my name is Bartłomiej and I was familiar with computer since I was a child. I am coding because that is really what is interesting for right now in life.
 I want to work in that field because I am creative person with logical thinking. It feels great to be able to code something that actually works and can make 
